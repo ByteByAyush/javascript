@@ -20,5 +20,10 @@ const name2 = "    Ayush    "
 console.log(name2);          // space ke sath print hoga
 console.log(name2.trim());   // trim space hata dega staring se aur ending se
 
+const url = "https://ayush.com/ayush%20kumar"
+
+console.log(url.replace('%20', '-'));      //replace function is used to replace '%20' to '-'
+
+console.log(url.includes('ayush'))         //include fuction is used to find any element in variables  and then, output is true or flase
 
 
