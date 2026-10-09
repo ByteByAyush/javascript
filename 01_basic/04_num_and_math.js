@@ -16,3 +16,13 @@ console.log(hun.toLocaleString('en-IN'));  // tolocalestring( ) it used to , in 
 
 
 //+++++++++++++++++  MATHS  +++++++++++++++++
+
+console.log(Math.abs(-4));         // abs = convert negative number to postive   //only negative not postitvie 
+
+console.log(Math.random());
+console.log (Math.ceil(Math.random()*11)+1);
+
+const max = 20
+const min = 10
+
+Math.floor(Math.random() * (max - min + 1)) + min;
