@@ -15,4 +15,4 @@ const hun = 10000200
 console.log(hun.toLocaleString('en-IN'));  // tolocalestring( ) it used to , in digit and you use tolocalestring('en-IN') so it use , in indian system 
 
 
-//+++++++++++++++++ MATHS ++++++++++++
+//+++++++++++++++++  MATHS  +++++++++++++++++
