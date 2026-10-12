@@ -22,5 +22,5 @@ console.log(myDate.toLocaleTimeString());
 console.log(typeof myDate);
 
 
-let myCreatedDate = new Date (2026, 4, 12, 4, 40, 45)
-console.log(myCreatedDate.toLocaleString());
+let myCreatedDate = new Date (2026, 4, 21, 4, 40, 45)
+console.log(myCreatedDate.toDateString());
